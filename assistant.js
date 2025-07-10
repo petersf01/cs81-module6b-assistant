@@ -44,3 +44,16 @@ PersonalAssistant.prototype.setMood = function() {
   }
 }
 
+// Create an instance of PersonalAssistant and demonstrate its functionality
+let assistant = new PersonalAssistant('Squeegee');
+assistant.greet();
+assistant.addTask('Clean the garage');
+assistant.addTask('Pay the bills');
+assistant.addTask('Wash the dishes');
+assistant.reportMood();
+assistant.completeTask();
+assistant.reportMood();
+assistant.completeTask();
+assistant.reportMood();
+assistant.completeTask();
+assistant.reportMood();
